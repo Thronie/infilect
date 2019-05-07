@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.loginFormDiv {
+    width: 75%;
+    text-align: center;
+    background: #fff;
+}
+
+.login-form {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.input-group-addon {
+    background: transparent !important;
+    border: none !important;
+}
+
+.span-text {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.logo-text {
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bold;
+    color: #343534;
+}
+
+.shopx-logo {
+    height: 43px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.login-header {
+    margin-bottom: 30px;
+}
+
+.loginFormDiv input {
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    outline: none;
+    box-shadow: none !important;
+    height: 50px;
+    font-size: 18px;
+}
+
+.loginFormDiv h4 {
+    margin-top: 20px;
+}
+
+.loginFormDiv button {
+    margin-top: 30px;
+    width: 100%;
+    background: #f56623;
+    color: #fff;
+    height: 52px;
+    font-size: 18px;
+}
+
+.loginFormDiv .form-group {
+    margin-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 786px) {
+    .container {
+        margin-top: 0px;
+        padding: 40px 20px;
+        margin-top: -95px;
+    }
+
+    .loginFormDiv {
+        width: 100%;
+    }
+
+    .loginFormDiv button {
+        margin-top: 10px;
+    }
+}
+
+.form-control {
+    padding: 10px;
+    width: 95%;
+}
+
+.form-control-input {
+    width: inherit;
+}
+
+.error-filed {
+    color: red;
+    font-size: 14px;
+    padding: 5px 0px 0px 20px;
+}
