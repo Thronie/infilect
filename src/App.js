@@ -11,7 +11,7 @@ class App extends Component {
     let routes = (
       <Switch>
         <Route path='/login' component={Login} />
-        <Route path='/home' exact component={Home} />
+        <Route path='/home/:id?' exact component={Home} />
         <Redirect to='/login' />
       </Switch>
     );
